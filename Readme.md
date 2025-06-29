@@ -161,3 +161,6 @@
    |- DiscountModule-Test
    |   |- ...              // โค้ดสำหรับ Unit Test ของ DiscountModule
 ```
+
+
+![Local image](https://github.com/kudane/discount-project/blob/main/mermaid-diagram-2025-06-30-011337.png)
