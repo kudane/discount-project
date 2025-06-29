@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36202.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8EA5AF12-4351-456E-A7A5-DDA36B3D38C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountModule", "src\DiscountModule\DiscountModule.csproj", "{E73852F6-BB30-4D34-8398-3D80A096B8D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountApp", "src\DiscountApp\DiscountApp.csproj", "{59BD1848-FFFE-4815-9276-6A274EF41A3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountModule-Test", "tests\DiscountModule-Test\DiscountModule-Test.csproj", "{47AB676D-79E2-49D0-90B5-93EAA2CA83C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E73852F6-BB30-4D34-8398-3D80A096B8D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73852F6-BB30-4D34-8398-3D80A096B8D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73852F6-BB30-4D34-8398-3D80A096B8D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73852F6-BB30-4D34-8398-3D80A096B8D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BD1848-FFFE-4815-9276-6A274EF41A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BD1848-FFFE-4815-9276-6A274EF41A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BD1848-FFFE-4815-9276-6A274EF41A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BD1848-FFFE-4815-9276-6A274EF41A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47AB676D-79E2-49D0-90B5-93EAA2CA83C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AB676D-79E2-49D0-90B5-93EAA2CA83C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AB676D-79E2-49D0-90B5-93EAA2CA83C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AB676D-79E2-49D0-90B5-93EAA2CA83C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E73852F6-BB30-4D34-8398-3D80A096B8D0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{59BD1848-FFFE-4815-9276-6A274EF41A3C} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{47AB676D-79E2-49D0-90B5-93EAA2CA83C8} = {8EA5AF12-4351-456E-A7A5-DDA36B3D38C4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CE63B77-B99C-4D65-A0F5-B80FEF24DD6A}
+	EndGlobalSection
+EndGlobal

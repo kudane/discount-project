@@ -1,0 +1,38 @@
+{
+  "Items": [
+    {
+      "Name": "Hood",
+      "Price": 100,
+      "Catagory": "Clothing"
+    },
+    {
+      "Name": "T-Shirt",
+      "Price": 100,
+      "Catagory": "Clothing"
+    },
+    {
+      "Name": "Watch",
+      "Price": 100,
+      "Catagory": "Electronics"
+    },
+    {
+      "Name": "Bag",
+      "Price": 100,
+      "Catagory": "Accessories"
+    }
+  ],
+  "Campaigns": [
+    {
+      "Type": "OntopByPoint",
+      "Spec": {
+        "Point": 100.0
+      }
+    }
+  ],
+  "Orders": [
+    {
+      "No": 1,
+      "Campaigns": [ "OntopByPoint", "OntopByPercentOfCatagory" ]
+    }
+  ]
+}
