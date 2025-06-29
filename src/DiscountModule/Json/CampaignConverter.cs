@@ -2,7 +2,7 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace DiscountApp;
+namespace DiscountModule;
 
 public class CampaignConverter : JsonConverter<Campaign>
 {

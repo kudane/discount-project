@@ -4,7 +4,7 @@ using System.Text.Json;
 
 public static class Program
 {
-    private static readonly JsonSerializerOptions JsonSerializerOptions = new JsonSerializerOptions
+    private static readonly JsonSerializerOptions JsonSerializerOptions = new()
     {
         PropertyNameCaseInsensitive = true,
         Converters = { new CampaignConverter(), new OrderConverter() }
