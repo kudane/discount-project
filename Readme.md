@@ -30,7 +30,7 @@
 
 // Coupon แบบ Percent
 {
-  "Type": "CouponByAmount",
+  "Type": "CouponByPercent",
   "Spec": {
     "Amount": 100.0
   }
