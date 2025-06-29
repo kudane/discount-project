@@ -64,7 +64,7 @@
 ```
 
       
-3. Oders: ลำดับที่ต้องการคำนวณ Discount ใส่ config ได้ดังนี้
+3. Orders: ลำดับที่ต้องการคำนวณ Discount ใส่ config ได้ดังนี้
 โดยนำค่าจาก CampaignEnum.cs มาใส่ใน key "Campaigns" แบบ array
 
 ```json
