@@ -158,6 +158,6 @@
    |   |- ...              // ไลบรารีหรือคลาสสำหรับคำนวณส่วนลด (Discount Logic)
 
 - test
-   |- DiscountCalculator-Test
-   |   |- ...              // โค้ดสำหรับ Unit Test ของ DiscountCalculator
+   |- DiscountModule-Test
+   |   |- ...              // โค้ดสำหรับ Unit Test ของ DiscountModule
 ```
