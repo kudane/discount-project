@@ -32,7 +32,7 @@
 {
   "Type": "CouponByPercent",
   "Spec": {
-    "Amount": 100.0
+    "Percent": 10.0
   }
 }
 
