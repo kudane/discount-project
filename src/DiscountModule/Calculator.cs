@@ -33,21 +33,15 @@ public class Calculator
 
             foreach (var rowItem in rowItems)
             {
-                if(rowItem.Campaigns == null)
-                {
-                    continue;
-                }
+                if (rowItem.Campaigns == null) continue;
 
                 var campaign = rowItem.Campaigns.FirstOrDefault(a => orderItem.Campaigns.Any(id => id == a.Type));
 
                 if (campaign == null) continue;
 
-                if(campaign.Ignore != null && campaign.Ignore(rowItem.Item, campaign))
-                {
-                    continue;
-                }
+                if (campaign.Ignore != null && campaign.Ignore(rowItem.Item, campaign)) continue;
 
-                var calculator = CalculateFactory.GetCalculator(campaign ,rowItem, totalPriceInCart);
+                var calculator = CalculateFactory.GetCalculator(campaign, rowItem, totalPriceInCart);
 
                 if (calculator == null) continue;
 
