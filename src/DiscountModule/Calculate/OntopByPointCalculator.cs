@@ -1,6 +1,6 @@
 ﻿namespace DiscountModule;
 
-public class OntopByPointCalculator(Campaign campaign, RowItem rowItem, double totalPriceInCart) : ICalculate
+public class OntopByPointCalculator(Campaign campaign, RowItem rowItem, double totalPriceInCart) : ICalculator
 {
     private readonly Campaign campaign = campaign;
     private readonly RowItem rowItem = rowItem;

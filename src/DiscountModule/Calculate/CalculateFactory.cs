@@ -2,7 +2,7 @@
 
 public class CalculateFactory
 {
-    public static ICalculate? GetCalculator(Campaign campaign, RowItem rowItem, double totalPriceInCart)
+    public static ICalculator? GetCalculator(Campaign campaign, RowItem rowItem, double totalPriceInCart)
     {
         return campaign.Type switch
         {

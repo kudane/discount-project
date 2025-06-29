@@ -1,6 +1,6 @@
 ﻿namespace DiscountModule;
 
-public class CouponByAmountCalculator(Campaign campaign, RowItem rowItem) : ICalculate
+public class CouponByAmountCalculator(Campaign campaign, RowItem rowItem) : ICalculator
 {
     private readonly Campaign campaign = campaign;
     private readonly RowItem rowItem = rowItem;

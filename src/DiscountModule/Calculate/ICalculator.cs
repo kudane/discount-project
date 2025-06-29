@@ -1,6 +1,6 @@
 ﻿namespace DiscountModule;
 
-public interface ICalculate
+public interface ICalculator
 {
     public double Execute();
 }
